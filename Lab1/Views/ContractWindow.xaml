@@ -1,0 +1,32 @@
+﻿<Window x:Class="SortingAggregator.Views.ContractWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Контракт операции" Height="400" Width="500">
+    <Grid Margin="16">
+        <StackPanel>
+            <!--Заголовок -->
+            <TextBlock Text="{Binding DisplayName}" 
+                   FontSize="18" 
+                   FontWeight="Bold" 
+                   Margin="0,0,0,16"/>
+
+            <!-- Блок с деталями контракта -->
+            <StackPanel>
+                <TextBlock Text="Предусловие:" FontWeight="Bold" Margin="0,0,0,4"/>
+                <TextBlock Text="{Binding ContractPre}" Margin="0,0,0,12" TextWrapping="Wrap"/>
+
+                <TextBlock Text="Постусловие:" FontWeight="Bold" Margin="0,0,0,4"/>
+                <TextBlock Text="{Binding ContractPost}" Margin="0,0,0,12" TextWrapping="Wrap"/>
+
+                <TextBlock Text="Эффекты:" FontWeight="Bold" Margin="0,0,0,4"/>
+                <TextBlock Text="{Binding ContractEffects}" Margin="0,0,0,12" TextWrapping="Wrap"/>
+
+                <TextBlock Text="Пример (валидный):" FontWeight="Bold" Margin="0,0,0,4"/>
+                <TextBlock Text="{Binding ExampleValid}" Margin="0,0,0,12" TextWrapping="Wrap"/>
+
+                <TextBlock Text="Пример (невалидный):" FontWeight="Bold" Margin="0,0,0,4"/>
+                <TextBlock Text="{Binding ExampleInvalid}" TextWrapping="Wrap"/>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>
