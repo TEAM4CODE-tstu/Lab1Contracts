@@ -1,0 +1,44 @@
+﻿using SortingAggregator.Domain;
+
+namespace SortingAggregator.ViewModels;
+
+public class SortViewModel : OperationViewModelBase
+{
+    public override string DisplayName => "Сортировка массива";
+    public override string ContractPre =>
+        "Массив не null и не пустой";
+    public override string ContractPost =>
+        "Массив упорядочен по неубыванию; мультимножество элементов сохранено";
+    public override string ContractEffects =>
+        "Возвращает новый отсортированный массив. Исходный массив не изменяется" +
+        "Исключение: ArgumentException при пустом или null-входе";
+    public override string ExampleValid =>
+        "Вход: 5, 3, 8, 1 → результат: 1, 3, 5, 8";
+    public override string ExampleInvalid =>
+        "Вход: (пусто) → предусловие не выполнено, операция не запускается";
+
+    protected override bool CheckPre(out string failReason)
+    {
+        (bool isValid, failReason, int[] values) = ValidateInputText();
+
+        return isValid;
+    }
+
+    protected override void RunOperation(int[] input, out string result)
+    {
+        var sorted = Operations.Sort(input);
+        result = string.Join(", ", sorted);
+    }
+
+    protected override bool CheckPost(int[] input, string result)
+    {
+        var sorted = result.Split(new[] { ", " }, StringSplitOptions.None)
+                           .Select(s => int.Parse(s))
+                           .ToArray();
+
+        for (int i = 1; i < sorted.Length; i++)
+            if (sorted[i - 1] > sorted[i]) return false;
+
+        return sorted.OrderBy(x => x).SequenceEqual(input.OrderBy(x => x));
+    }
+}
