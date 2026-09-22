@@ -4,7 +4,9 @@
         xmlns:vm="clr-namespace:SortingAggregator.ViewModels"
         Title="Операции — Сортировка и агрегация"
         Height="500" Width="800"
+        Closing="Window_Closing"
         WindowStartupLocation="CenterScreen">
+    
 
     <Window.DataContext>
         <vm:MainViewModel/>
@@ -33,12 +35,41 @@
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
 
-        <!-- Список операций слева -->
+        <!-- Список операций слева --><!--
         <ListBox Grid.Column="0"
                  ItemsSource="{Binding Operations}"
                  DisplayMemberPath="DisplayName"
                  SelectedItem="{Binding SelectedOperation}"
-                 Margin="8"/>
+                 Margin="8"/>-->
+        
+        <!-- что добавлено-->
+        <Grid Grid.Column="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <!-- Строка для списка (займет все место сверху) -->
+                <RowDefinition Height="Auto"/>
+                <!-- Строка для кнопки -->
+            </Grid.RowDefinitions>
+
+            <!-- Перенесенный список (добавилась только строка Grid.Row="0") -->
+            <ListBox Grid.Row="0"
+             ItemsSource="{Binding Operations}"
+             DisplayMemberPath="DisplayName"
+             SelectedItem="{Binding SelectedOperation}"
+             Margin="8,8,8,4"/>
+
+            <!-- Кнопка выхода в самом низу колонки -->
+            <Button Grid.Row="1"
+            Content="Выход"
+            Height="32"
+            Margin="8,4,8,8"
+            Background="#FFF0F0"
+            FontWeight="SemiBold"
+            Click="ExitButton_Click"/>
+        </Grid>
+        
+        <!--новое сверху -->
+
 
         <!-- Карточка операции справа -->
         <Border Grid.Column="1" Margin="8" Padding="16"

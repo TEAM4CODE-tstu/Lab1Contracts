@@ -1,13 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "thy8NkzNFPo=",
+  "dgSpecHash": "BtSZT2bd66w=",
   "success": true,
-  "projectFilePath": "D:\\Masha\\Курс2\\Теоретическая информатика\\Lab1\\_git\\Lab1\\Lab1.csproj",
+  "projectFilePath": "C:\\Users\\Nickolay\\Desktop\\2 course\\TheorInf\\Lab1Contracts\\Lab1\\Lab1.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Lenovo\\.nuget\\packages\\guardrequires\\3.0.1\\guardrequires.3.0.1.nupkg.sha512",
-    "C:\\Users\\Lenovo\\.nuget\\packages\\system.io.pipelines\\9.0.0\\system.io.pipelines.9.0.0.nupkg.sha512",
-    "C:\\Users\\Lenovo\\.nuget\\packages\\system.text.encodings.web\\9.0.0\\system.text.encodings.web.9.0.0.nupkg.sha512",
-    "C:\\Users\\Lenovo\\.nuget\\packages\\system.text.json\\9.0.0\\system.text.json.9.0.0.nupkg.sha512"
+    "C:\\Users\\Nickolay\\.nuget\\packages\\guardrequires\\3.0.1\\guardrequires.3.0.1.nupkg.sha512",
+    "C:\\Users\\Nickolay\\.nuget\\packages\\system.io.pipelines\\9.0.0\\system.io.pipelines.9.0.0.nupkg.sha512",
+    "C:\\Users\\Nickolay\\.nuget\\packages\\system.text.encodings.web\\9.0.0\\system.text.encodings.web.9.0.0.nupkg.sha512",
+    "C:\\Users\\Nickolay\\.nuget\\packages\\system.text.json\\9.0.0\\system.text.json.9.0.0.nupkg.sha512",
+    "C:\\Users\\Nickolay\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.31\\microsoft.windowsdesktop.app.ref.8.0.31.nupkg.sha512",
+    "C:\\Users\\Nickolay\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.31\\microsoft.netcore.app.ref.8.0.31.nupkg.sha512",
+    "C:\\Users\\Nickolay\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.31\\microsoft.aspnetcore.app.ref.8.0.31.nupkg.sha512",
+    "C:\\Users\\Nickolay\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.31\\microsoft.netcore.app.host.win-x64.8.0.31.nupkg.sha512"
   ],
   "logs": []
 }
