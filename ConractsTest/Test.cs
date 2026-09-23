@@ -5,19 +5,16 @@ using SortingAggregator.Domain;
 
 namespace Contracts.Tests
 {
-    public class UnitTest1
+    public class Test
     {
 
         [Fact]
         public void Sort_TypicalArray_ReturnsSortedCopy()
         {
-            // Arrange
             int[] input = { 5, 3, 8, 1 };
 
-            // Act
             int[] result = Operations.Sort(input);
 
-            // Assert — упорядочен по неубыванию
             for (int i = 1; i < result.Length; i++)
                 Assert.True(result[i - 1] <= result[i]);
         }

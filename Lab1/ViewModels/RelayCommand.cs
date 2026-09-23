@@ -4,6 +4,7 @@ namespace SortingAggregator.ViewModels;
 
 public class RelayCommand : ICommand
 {
+    // Действие, которое будет выполнено при активации команды
     private readonly Action<object?> _execute;
     private readonly Func<object?, bool>? _canExecute;
 
@@ -18,7 +19,8 @@ public class RelayCommand : ICommand
         add => CommandManager.RequerySuggested += value;
         remove => CommandManager.RequerySuggested -= value;
     }
-
+    // Проверяет, разрешено ли сейчас выполнение команды
     public bool CanExecute(object? parameter) => _canExecute?.Invoke(parameter) ?? true;
+    // Выполняет основное действие команды
     public void Execute(object? parameter) => _execute(parameter);
 }
