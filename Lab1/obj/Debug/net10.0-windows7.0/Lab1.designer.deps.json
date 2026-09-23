@@ -1,0 +1,28 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "GuardRequires/3.0.1": {
+        "runtime": {
+          "lib/net8.0/GuardRequires.dll": {
+            "assemblyVersion": "3.0.1.0",
+            "fileVersion": "3.0.1.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GuardRequires/3.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xUFqbopO2hp9vA+jsSW6hJQJT1tJpct1hEJvh/5yPvwqSbZQrB7OsCF6XKZEyiLrpCkaRSL1DKblnoZ1cZdndg==",
+      "path": "guardrequires/3.0.1",
+      "hashPath": "guardrequires.3.0.1.nupkg.sha512"
+    }
+  }
+}

@@ -35,13 +35,6 @@
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
 
-        <!-- Список операций слева --><!--
-        <ListBox Grid.Column="0"
-                 ItemsSource="{Binding Operations}"
-                 DisplayMemberPath="DisplayName"
-                 SelectedItem="{Binding SelectedOperation}"
-                 Margin="8"/>-->
-        
         <!-- что добавлено-->
         <Grid Grid.Column="0">
             <Grid.RowDefinitions>
