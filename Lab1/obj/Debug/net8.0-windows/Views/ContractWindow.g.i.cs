@@ -52,7 +52,7 @@ namespace SortingAggregator.Views {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Lab1;component/views/contractwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Lab1;V1.0.0.0;component/views/contractwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Views\ContractWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
