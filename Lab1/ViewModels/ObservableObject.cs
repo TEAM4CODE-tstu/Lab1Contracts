@@ -3,6 +3,9 @@ using System.Runtime.CompilerServices;
 
 namespace SortingAggregator.ViewModels;
 
+/// <summary>
+/// Реализует INotifyPropertyChanged, чтобы UI мог узнавать об изменениях свойств
+/// </summary>
 public abstract class ObservableObject : INotifyPropertyChanged
 {
     public event PropertyChangedEventHandler? PropertyChanged;
@@ -12,10 +15,9 @@ public abstract class ObservableObject : INotifyPropertyChanged
         if (Equals(field, value))
             return false;
         field = value;
+
+        // UI сообщается что свойство объекта изменилось
         PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(prop));
         return true;
     }
-
-    protected void OnPropertyChanged([CallerMemberName] string? prop = null)
-        => PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(prop));
 }

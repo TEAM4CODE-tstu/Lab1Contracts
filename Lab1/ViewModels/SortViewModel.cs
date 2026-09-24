@@ -39,6 +39,6 @@ public class SortViewModel : OperationViewModelBase
         for (int i = 1; i < sorted.Length; i++)
             if (sorted[i - 1] > sorted[i]) return false;
 
-        return sorted.OrderBy(x => x).SequenceEqual(input.OrderBy(x => x));
+        return sorted.SequenceEqual(input.OrderBy(x => x));
     }
 }

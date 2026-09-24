@@ -4,7 +4,7 @@ namespace SortingAggregator.ViewModels;
 
 public abstract class OperationViewModelBase : ObservableObject
 // ObservableObject — это базовый класс,
-// который позволяет объектам поддерживать механизм уведомлений об изменениях свойств.
+// который позволяет объектам поддерживать механизм уведомлений об изменениях свойств
 {
     private string _inputText = "";
     private string _resultText = "";
@@ -163,7 +163,7 @@ public abstract class OperationViewModelBase : ObservableObject
         foreach (var part in parts)
         {
             if (!int.TryParse(part, out var value))
-                return (false, $"Нечисловой элемент: '{part}'. Используйте только целые числа.", Array.Empty<int>());
+                return (false, $"Неподходящий ввод: '{part}'. Используйте только целые числа.", Array.Empty<int>());
             result.Add(value);
         }
 

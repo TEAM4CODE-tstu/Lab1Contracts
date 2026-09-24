@@ -24,7 +24,7 @@ public static class Operations
                 "Нарушено постусловие: массив не упорядочен");
 
         // Post: мультимножество сохранено
-        Debug.Assert(result.OrderBy(x => x).SequenceEqual(input.OrderBy(x => x)),
+        Debug.Assert(result.SequenceEqual(input.OrderBy(x => x)),
             "Нарушено постусловие: мультимножество элементов изменено");
 
         return result;
@@ -56,7 +56,7 @@ public static class Operations
     /// <summary>
     /// Сумма элементов массива
     /// Pre:  массив не null и не пустой
-    /// Post: результат = сумма всех элементов; результат ≥ min*len и ≤ max*len
+    /// Post: результат = сумма всех элементов; результат ≥ min*len и результат ≤ max*len
     /// </summary>
     public static long Sum(int[] input)
     {
