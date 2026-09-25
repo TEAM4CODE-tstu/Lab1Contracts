@@ -13,14 +13,14 @@
     </Window.DataContext>
 
     <Window.Resources>
-        <!-- Конвертер bool → зелёный/красный -->
+        <!-- Конвертер bool в цветовые индикаторы  соответсвия постусловия (зелёный/красный) -->
         <Style x:Key="IndicatorStyle" TargetType="Ellipse">
             <Setter Property="Width" Value="16"/>
             <Setter Property="Height" Value="16"/>
             <Setter Property="Fill" Value="Gray"/>
             <Style.Triggers>
                 <DataTrigger Binding="{Binding IsPreMet}" Value="True">
-                    <Setter Property="Fill" Value="LightGreen"/>
+                    <Setter Property="Fill" Value="LightGreen"/> 
                 </DataTrigger>
                 <DataTrigger Binding="{Binding IsPreMet}" Value="False">
                     <Setter Property="Fill" Value="IndianRed"/>
@@ -35,7 +35,7 @@
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
 
-        <!-- что добавлено-->
+        <!-- Добавленное-->
         <Grid Grid.Column="0" Background="#F3F3F3"> <!-- Закраска левого заднего плана в серый -->
             <Grid.RowDefinitions>
                 <RowDefinition Height="*"/>
@@ -44,14 +44,14 @@
                 <!-- Строка для кнопки -->
             </Grid.RowDefinitions>
 
-            <!-- Перенесенный список (добавилась только строка Grid.Row="0") -->
+            <!-- Перенесенный список (Grid.Row="0") -->
             <ListBox Grid.Row="0"
              ItemsSource="{Binding Operations}"
              DisplayMemberPath="DisplayName"
              SelectedItem="{Binding SelectedOperation}"
              Margin="8,8,8,4"/>
 
-            <!-- Кнопка выхода в самом низу колонки -->
+            <!-- Размещение кнопки выхода в самом низу колонки -->
             <Button Grid.Row="1"
             Content="Выход"
             Height="32"
@@ -94,7 +94,7 @@
                         Width="120" HorizontalAlignment="Left"
                         Padding="8,4" Margin="0,0,0,16"/>
 
-                        <!-- Индикаторы Pre / Post -->
+                        <!-- Индикаторы Pre или Post -->
                         <StackPanel Orientation="Horizontal" Margin="0,0,0,4">
                             <Ellipse Style="{StaticResource IndicatorStyle}"
                              Margin="0,0,8,0"/>
@@ -126,7 +126,7 @@
                            FontFamily="Consolas" FontSize="14"
                            TextWrapping="Wrap" Margin="0,0,0,16"/>
 
-                        <!-- Кнопка контракт -->
+                        <!-- Кнопка контракта -->
                         <Button Content="Показать контракт"
                         Command="{Binding ShowContractCommand}"
                         Width="160" HorizontalAlignment="Left"
