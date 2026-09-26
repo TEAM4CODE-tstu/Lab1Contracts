@@ -1,7 +1,28 @@
 ﻿################################################################################
-# Данный GITIGNORE-файл был автоматически создан Microsoft(R) Visual Studio.
+# Профессиональный GITIGNORE для .NET & Visual Studio (TEAM4CODE-tstu)
 ################################################################################
 
-/Lab1/.vs/Lab1.slnx/FileContentIndex/528fb2bd-38a4-4884-81fa-d99c97a528e9.vsidx
-/Lab1/.vs/Lab1.slnx/FileContentIndex/5d750b7a-7353-4f7b-adef-8a1888ce7c63.vsidx
-/Lab1/.vs/Lab1.slnx/FileContentIndex
+# 1. Системные папки компиляции (Самый главный мусор, из-за которого были ошибки)
+bin/
+obj/
+[Bb]in/
+[Oo]bj/
+
+# 2. Скрытые папки настроек Visual Studio и JetBrains
+.vs/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# 3. Временный кэш компиляции WPF
+*_MarkupCompile.lref
+*_MarkupCompile.i.lrc
+*.g.cs
+*.g.i.cs
+
+# 4. Файлы документов (Если нужно хранить локально, но не отправлять на GitHub)
+*.docx
+*.xlsx
+*.pdf
