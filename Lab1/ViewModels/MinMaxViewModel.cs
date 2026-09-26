@@ -4,7 +4,7 @@ namespace SortingAggregator.ViewModels;
 
 public class MinMaxViewModel : OperationViewModelBase
 {
-    public override string DisplayName => "Минимум и максимум";
+    public override string DisplayName => "Контроль перегруза (Мин/Макс)";
     public override string ContractPre =>
         "Массив не null и не пустой";
     public override string ContractPost =>

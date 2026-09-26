@@ -4,7 +4,7 @@ namespace SortingAggregator.ViewModels;
 
 public class SumViewModel : OperationViewModelBase
 {
-    public override string DisplayName => "Сумма элементов";
+    public override string DisplayName => "Расчёт общей массы рейса";
     public override string ContractPre =>
         "Массив не null и не пустой";
     public override string ContractPost =>

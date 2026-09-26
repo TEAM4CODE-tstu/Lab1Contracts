@@ -4,7 +4,7 @@ namespace SortingAggregator.ViewModels;
 
 public class SortViewModel : OperationViewModelBase
 {
-    public override string DisplayName => "Сортировка массива";
+    public override string DisplayName => "Оптимизация погрузки";
     public override string ContractPre =>
         "Массив не null и не пустой";
     public override string ContractPost =>

@@ -7,24 +7,12 @@
       "RelativeMoniker": "D:0:0:{85A09178-86F8-11FE-228E-5C505B5C870A}|Lab1.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{85A09178-86F8-11FE-228E-5C505B5C870A}|Lab1.csproj|c:\\users\\nickolay\\desktop\\2 course\\theorinf\\lab1contracts\\lab1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85A09178-86F8-11FE-228E-5C505B5C870A}|Lab1.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{85A09178-86F8-11FE-228E-5C505B5C870A}|Lab1.csproj|c:\\users\\nickolay\\desktop\\2 course\\theorinf\\lab1contracts\\lab1\\helpwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85A09178-86F8-11FE-228E-5C505B5C870A}|Lab1.csproj|solutionrelative:helpwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{85A09178-86F8-11FE-228E-5C505B5C870A}|Lab1.csproj|c:\\users\\nickolay\\desktop\\2 course\\theorinf\\lab1contracts\\lab1\\helpwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{85A09178-86F8-11FE-228E-5C505B5C870A}|Lab1.csproj|solutionrelative:helpwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{85A09178-86F8-11FE-228E-5C505B5C870A}|Lab1.csproj|c:\\users\\nickolay\\desktop\\2 course\\theorinf\\lab1contracts\\lab1\\views\\contractwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{85A09178-86F8-11FE-228E-5C505B5C870A}|Lab1.csproj|solutionrelative:views\\contractwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{85A09178-86F8-11FE-228E-5C505B5C870A}|Lab1.csproj|c:\\users\\nickolay\\desktop\\2 course\\theorinf\\lab1contracts\\lab1\\views\\contractwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85A09178-86F8-11FE-228E-5C505B5C870A}|Lab1.csproj|solutionrelative:views\\contractwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{85A09178-86F8-11FE-228E-5C505B5C870A}|Lab1.csproj|c:\\users\\nickolay\\desktop\\2 course\\theorinf\\lab1contracts\\lab1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85A09178-86F8-11FE-228E-5C505B5C870A}|Lab1.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,15 +50,14 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "HelpWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Nickolay\\Desktop\\2 course\\TheorInf\\Lab1Contracts\\Lab1\\HelpWindow.xaml.cs",
-              "RelativeDocumentMoniker": "HelpWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\Nickolay\\Desktop\\2 course\\TheorInf\\Lab1Contracts\\Lab1\\HelpWindow.xaml.cs",
-              "RelativeToolTip": "HelpWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-26T11:41:15.886Z",
+              "DocumentIndex": 1,
+              "Title": "HelpWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Nickolay\\Desktop\\2 course\\TheorInf\\Lab1Contracts\\Lab1\\HelpWindow.xaml",
+              "RelativeDocumentMoniker": "HelpWindow.xaml",
+              "ToolTip": "C:\\Users\\Nickolay\\Desktop\\2 course\\TheorInf\\Lab1Contracts\\Lab1\\HelpWindow.xaml",
+              "RelativeToolTip": "HelpWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-09-26T14:44:27.319Z",
               "EditorCaption": ""
             },
             {
@@ -87,52 +74,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "HelpWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\Nickolay\\Desktop\\2 course\\TheorInf\\Lab1Contracts\\Lab1\\HelpWindow.xaml",
-              "RelativeDocumentMoniker": "HelpWindow.xaml",
-              "ToolTip": "C:\\Users\\Nickolay\\Desktop\\2 course\\TheorInf\\Lab1Contracts\\Lab1\\HelpWindow.xaml",
-              "RelativeToolTip": "HelpWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-09-26T11:38:56.705Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ContractWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\Nickolay\\Desktop\\2 course\\TheorInf\\Lab1Contracts\\Lab1\\Views\\ContractWindow.xaml",
-              "RelativeDocumentMoniker": "Views\\ContractWindow.xaml",
-              "ToolTip": "C:\\Users\\Nickolay\\Desktop\\2 course\\TheorInf\\Lab1Contracts\\Lab1\\Views\\ContractWindow.xaml",
-              "RelativeToolTip": "Views\\ContractWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-09-26T07:29:07.971Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Nickolay\\Desktop\\2 course\\TheorInf\\Lab1Contracts\\Lab1\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\Nickolay\\Desktop\\2 course\\TheorInf\\Lab1Contracts\\Lab1\\MainWindow.xaml.cs",
               "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA/AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-26T07:29:23.342Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ContractWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Nickolay\\Desktop\\2 course\\TheorInf\\Lab1Contracts\\Lab1\\Views\\ContractWindow.xaml.cs",
-              "RelativeDocumentMoniker": "Views\\ContractWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\Nickolay\\Desktop\\2 course\\TheorInf\\Lab1Contracts\\Lab1\\Views\\ContractWindow.xaml.cs",
-              "RelativeToolTip": "Views\\ContractWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-26T07:29:13.684Z"
             }
           ]
         },

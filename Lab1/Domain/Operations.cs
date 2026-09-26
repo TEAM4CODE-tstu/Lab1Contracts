@@ -13,7 +13,7 @@ public static class Operations
     {
         // Pre: массив не null и не пустой
         Guard.Requires(input != null && input.Length > 0,
-            "Массив не должен быть null или пустым");
+            "Веса грузов не введены");
 
         var result = (int[])input.Clone();
         Array.Sort(result);
@@ -21,7 +21,7 @@ public static class Operations
         // Post: упорядочен
         for (int i = 1; i < result.Length; i++)
             Debug.Assert(result[i - 1] <= result[i],
-                "Нарушено постусловие: массив не упорядочен");
+                "Нарушено постусловие: грузы не упорядочены");
 
         // Post: мультимножество сохранено
         Debug.Assert(result.SequenceEqual(input.OrderBy(x => x)),
@@ -39,7 +39,7 @@ public static class Operations
     public static (int Min, int Max) FindMinMax(int[] input)
     {
         Guard.Requires(input != null && input.Length > 0,
-            "Массив не должен быть null или пустым");
+            "Веса грузов не введены");
 
         int min = input.Min();
         int max = input.Max();
@@ -48,7 +48,7 @@ public static class Operations
         Debug.Assert(min <= max, "Нарушено постусловие: min > max");
         // Post: min и max присутствуют в массиве
         Debug.Assert(input.Contains(min) && input.Contains(max),
-            "Нарушено постусловие: min/max не найдены в массиве");
+            "Нарушено постусловие: min/max не найдены cреди грузов");
 
         return (min, max);
     }
@@ -61,7 +61,7 @@ public static class Operations
     public static long Sum(int[] input)
     {
         Guard.Requires(input != null && input.Length > 0,
-            "Массив не должен быть null или пустым");
+            "Веса грузов не введены");
 
         long sum = input.Sum();
 

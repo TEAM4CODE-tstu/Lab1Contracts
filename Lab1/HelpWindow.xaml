@@ -11,13 +11,13 @@
         <StackPanel Margin="20">
             <TextBlock Text="Инструкция по использованию программы" FontSize="18" FontWeight="Bold" Margin="0,0,0,16" Foreground="#333333"/>
 
-            <TextBlock Text="1. Выберите нужную операцию в левом меню приложения." TextWrapping="Wrap" Margin="0,0,0,8"/>
-            <TextBlock Text="2. Введите входные данные в текстовое поле. Числа можно разделять пробелами, запятыми или точкой с запятой (;)." TextWrapping="Wrap" Margin="0,0,0,8"/>
+            <TextBlock Text="1. Вы - администратор процесса погрузки на складе. Для работы выберите нужную операцию в левом меню приложения." TextWrapping="Wrap" Margin="0,0,0,8"/>
+            <TextBlock Text="2. Введите входные данные в текстовое поле. Массы грузов можно разделять пробелами, запятыми или точкой с запятой (;)." TextWrapping="Wrap" Margin="0,0,0,8"/>
             <TextBlock Text="3. Обратите внимание на индикатор 'Предусловие' — он должен гореть зеленым цветом. Если он красный, значит ввод некорректен." TextWrapping="Wrap" Margin="0,0,0,8"/>
-            <TextBlock Text="4. Выберите тип алгоритма (например, вид сортировки) и нажмите кнопку 'Выполнить'." TextWrapping="Wrap" Margin="0,0,0,8"/>
+            <TextBlock Text="4. Выберите тип алгоритма расчёта (например, вид сортировки) и нажмите кнопку 'Выполнить'." TextWrapping="Wrap" Margin="0,0,0,8"/>
             <TextBlock Text="5. Кнопка 'Показать контракт' откроет детальные математические спецификации текущей операции." TextWrapping="Wrap" Margin="0,0,0,16"/>
 
-            <Button Content="Понятно" Width="100" HorizontalAlignment="Right" Padding="5" Click="CloseHelp_Click"/>
+            
         </StackPanel>
     </Grid>
 </Window>

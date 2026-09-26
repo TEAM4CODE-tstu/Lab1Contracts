@@ -156,14 +156,18 @@ public abstract class OperationViewModelBase : ObservableObject
         var parts = InputText
             .Split(new[] { ' ', ',', ';' }, StringSplitOptions.RemoveEmptyEntries);
 
-        if (parts.Length == 0 || parts.Length >= 10000)
-            return (false, "Количество чисел должно быть меньше 10000 и больше 0", Array.Empty<int>());
+        if (parts.Length == 0 || parts.Length >= 100)
+            return (false, "Количество грузов должно быть меньше 100 и больше 0", Array.Empty<int>());
 
         var result = new List<int>(parts.Length);
         foreach (var part in parts)
         {
             if (!int.TryParse(part, out var value))
-                return (false, $"Неподходящий ввод: '{part}'. Используйте только целые числа.", Array.Empty<int>());
+                return (false, $"Неподходящий ввод: '{part}'. Вес округляется до целого числа кг.", Array.Empty<int>());
+            if (value > 20)
+            {
+                return (false, $"Ошибка логистики: вес '{value} кг' превышает лимит стандартного отправления (макс. 20 кг).", Array.Empty<int>());
+            }
             result.Add(value);
         }
 
