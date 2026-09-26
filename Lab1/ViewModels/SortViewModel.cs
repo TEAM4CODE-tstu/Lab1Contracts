@@ -1,5 +1,5 @@
-﻿using SortingAggregator.Domain;
-
+﻿using Lab1.Domain.Services.SortingServices;
+using Lab1.Infrastructure;
 namespace SortingAggregator.ViewModels;
 
 public class SortViewModel : OperationViewModelBase
@@ -10,12 +10,33 @@ public class SortViewModel : OperationViewModelBase
     public override string ContractPost =>
         "Массив упорядочен по неубыванию; мультимножество элементов сохранено";
     public override string ContractEffects =>
-        "Возвращает новый отсортированный массив. Исходный массив не изменяется" +
+        "Возвращает новый отсортированный массив. Исходный массив не изменяется \n" +
         "Исключение: ArgumentException при пустом или null-входе";
     public override string ExampleValid =>
         "Вход: 5, 3, 8, 1 → результат: 1, 3, 5, 8";
     public override string ExampleInvalid =>
         "Вход: (пусто) → предусловие не выполнено, операция не запускается";
+
+    private string _selectedSortType = "Подсчётом";
+
+    private double _executionTime;
+    public double ExecutionTime
+    {
+        get => _executionTime;
+        set => SetProperty(ref _executionTime, value); 
+    }
+    public string SelectedSortType
+    {
+        get => _selectedSortType;
+        set
+        {
+            if (_selectedSortType != value)
+            {
+                _selectedSortType = value;
+                SetProperty(ref _selectedSortType, value);
+            }
+        }
+    }
 
     protected override bool CheckPre(out string failReason)
     {
@@ -26,8 +47,21 @@ public class SortViewModel : OperationViewModelBase
 
     protected override void RunOperation(int[] input, out string result)
     {
-        var sorted = Operations.Sort(input);
-        result = string.Join(", ", sorted);
+        try
+        {
+            var algorithm = SortAlgorithmFactory.GetAlgorithm(_selectedSortType);
+
+            var (milliseconds, sorted) = TimeMeasurement.Measure(() => algorithm.Sort(input));
+
+            ExecutionTime = milliseconds;
+
+            result = string.Join(", ", sorted);
+        }
+        catch (ArgumentException ex)
+        {
+            result = $"Ошибка: {ex.Message}";
+            ExecutionTime = 0;
+        }
     }
 
     protected override bool CheckPost(int[] input, string result)

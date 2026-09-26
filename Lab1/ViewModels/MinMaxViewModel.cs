@@ -1,5 +1,4 @@
-﻿using SortingAggregator.Domain;
-
+﻿using static Lab1.Domain.Services.MinMaxService;
 namespace SortingAggregator.ViewModels;
 
 public class MinMaxViewModel : OperationViewModelBase
@@ -26,7 +25,7 @@ public class MinMaxViewModel : OperationViewModelBase
 
     protected override void RunOperation(int[] input, out string result)
     {
-        var (min, max) = Operations.FindMinMax(input);
+        var (min, max) = FindMinMax(input);
         result = $"min = {min}, max = {max}";
     }
 

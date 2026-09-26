@@ -1,5 +1,4 @@
-﻿using SortingAggregator.Domain;
-
+﻿using static Lab1.Domain.Services.SumService;
 namespace SortingAggregator.ViewModels;
 
 public class SumViewModel : OperationViewModelBase
@@ -26,7 +25,7 @@ public class SumViewModel : OperationViewModelBase
 
     protected override void RunOperation(int[] input, out string result)
     {
-        var sum = Operations.Sum(input);
+        var sum = Sum(input);
         result = sum.ToString();
     }
 

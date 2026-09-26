@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel;
 using System.Runtime.CompilerServices;
 
-namespace SortingAggregator.ViewModels;
+namespace Lab1.Infrastructure;
 
 /// <summary>
 /// Реализует INotifyPropertyChanged, чтобы UI мог узнавать об изменениях свойств
@@ -10,7 +10,7 @@ public abstract class ObservableObject : INotifyPropertyChanged
 {
     public event PropertyChangedEventHandler? PropertyChanged;
 
-    protected bool SetProperty<T>(ref T field, T value, [CallerMemberName] string? prop = null)
+    public bool SetProperty<T>(ref T field, T value, [CallerMemberName] string? prop = null)
     {
         if (Equals(field, value))
             return false;

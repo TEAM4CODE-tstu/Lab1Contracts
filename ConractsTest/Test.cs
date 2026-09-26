@@ -1,6 +1,7 @@
-
-using SortingAggregator.Domain;
-
+using Lab1.Domain.Services.SortingServices;
+using static Lab1.Domain.Services.MinMaxService;
+using static Lab1.Domain.Services.SortingServices.SortAlgorithmFactory;
+using static Lab1.Domain.Services.SumService;
 namespace Contracts.Tests
 {
     public class Test
@@ -9,9 +10,10 @@ namespace Contracts.Tests
         [Fact]
         public void Sort_TypicalArray_ReturnsSortedCopy()
         {
+            var algorithm = SortAlgorithmFactory.GetAlgorithm("Подсчётом");
             int[] input = { 5, 3, 8, 1 };
 
-            int[] result = Operations.Sort(input);
+            int[] result = algorithm.Sort(input);
 
             for (int i = 1; i < result.Length; i++)
                 Assert.True(result[i - 1] <= result[i]);
@@ -20,8 +22,9 @@ namespace Contracts.Tests
         [Fact]
         public void Sort_TypicalArray_PreservesMultiset()
         {
+            var algorithm = SortAlgorithmFactory.GetAlgorithm("Подсчётом");
             int[] input = { 5, 3, 8, 1 };
-            int[] result = Operations.Sort(input);
+            int[] result = algorithm.Sort(input);
 
             Assert.True(result.OrderBy(x => x).SequenceEqual(input.OrderBy(x => x)));
         }
@@ -29,10 +32,11 @@ namespace Contracts.Tests
         [Fact]
         public void Sort_DoesNotMutateOriginal()
         {
+            var algorithm = SortAlgorithmFactory.GetAlgorithm("Подсчётом");
             int[] input = { 5, 3, 8, 1 };
             int[] original = (int[])input.Clone();
 
-            Operations.Sort(input);
+            algorithm.Sort(input);
 
             Assert.Equal(original, input);
         }
@@ -40,8 +44,9 @@ namespace Contracts.Tests
         [Fact]
         public void Sort_SingleElement_ReturnsSameElement()
         {
+            var algorithm = SortAlgorithmFactory.GetAlgorithm("Подсчётом");
             int[] input = { 42 };
-            int[] result = Operations.Sort(input);
+            int[] result = algorithm.Sort(input);
 
             Assert.Single(result);
             Assert.Equal(42, result[0]);
@@ -50,8 +55,9 @@ namespace Contracts.Tests
         [Fact]
         public void Sort_AlreadySorted_ReturnsSameOrder()
         {
+            var algorithm = SortAlgorithmFactory.GetAlgorithm("Подсчётом");
             int[] input = { 1, 2, 3, 4, 5 };
-            int[] result = Operations.Sort(input);
+            int[] result = algorithm.Sort(input);
 
             Assert.Equal(input, result);
         }
@@ -59,8 +65,9 @@ namespace Contracts.Tests
         [Fact]
         public void Sort_ReverseSorted_ReturnsAscending()
         {
+            var algorithm = SortAlgorithmFactory.GetAlgorithm("Подсчётом");
             int[] input = { 9, 7, 5, 3, 1 };
-            int[] result = Operations.Sort(input);
+            int[] result = algorithm.Sort(input);
 
             Assert.Equal(new[] { 1, 3, 5, 7, 9 }, result);
         }
@@ -68,8 +75,9 @@ namespace Contracts.Tests
         [Fact]
         public void Sort_DuplicateElements_PreservesAll()
         {
+            var algorithm = SortAlgorithmFactory.GetAlgorithm("Подсчётом");
             int[] input = { 3, 1, 3, 1, 2 };
-            int[] result = Operations.Sort(input);
+            int[] result = algorithm.Sort(input);
 
             Assert.Equal(new[] { 1, 1, 2, 3, 3 }, result);
         }
@@ -77,8 +85,9 @@ namespace Contracts.Tests
         [Fact]
         public void Sort_NegativeNumbers_SortsCorrectly()
         {
+            var algorithm = SortAlgorithmFactory.GetAlgorithm("Подсчётом");
             int[] input = { -5, -1, -3, 0, 2 };
-            int[] result = Operations.Sort(input);
+            int[] result = algorithm.Sort(input);
 
             Assert.Equal(new[] { -5, -3, -1, 0, 2 }, result);
         }
@@ -86,13 +95,15 @@ namespace Contracts.Tests
         [Fact]
         public void Sort_NullInput_ThrowsException()
         {
-            Assert.ThrowsAny<Exception>(() => Operations.Sort(null!));
+            var algorithm = SortAlgorithmFactory.GetAlgorithm("Подсчётом");
+            Assert.ThrowsAny<Exception>(() => algorithm.Sort(null!));
         }
 
         [Fact]
         public void Sort_EmptyArray_ThrowsException()
         {
-            Assert.ThrowsAny<Exception>(() => Operations.Sort(Array.Empty<int>()));
+            var algorithm = SortAlgorithmFactory.GetAlgorithm("Подсчётом");
+            Assert.ThrowsAny<Exception>(() => algorithm.Sort(Array.Empty<int>()));
         }
 
 
@@ -101,7 +112,7 @@ namespace Contracts.Tests
         {
             int[] input = { 5, 3, 8, 1 };
 
-            var (min, max) = Operations.FindMinMax(input);
+            var (min, max) = FindMinMax(input);
 
             Assert.Equal(1, min);
             Assert.Equal(8, max);
@@ -112,7 +123,7 @@ namespace Contracts.Tests
         {
             int[] input = { 10, -4, 7, 0, 3 };
 
-            var (min, max) = Operations.FindMinMax(input);
+            var (min, max) = FindMinMax(input);
 
             Assert.True(min <= max);
         }
@@ -122,7 +133,7 @@ namespace Contracts.Tests
         {
             int[] input = { 5, 3, 8, 1 };
 
-            var (min, max) = Operations.FindMinMax(input);
+            var (min, max) = FindMinMax(input);
 
             Assert.Contains(min, input);
             Assert.Contains(max, input);
@@ -133,7 +144,7 @@ namespace Contracts.Tests
         {
             int[] input = { 7 };
 
-            var (min, max) = Operations.FindMinMax(input);
+            var (min, max) = FindMinMax(input);
 
             Assert.Equal(7, min);
             Assert.Equal(7, max);
@@ -144,7 +155,7 @@ namespace Contracts.Tests
         {
             int[] input = { 4, 4, 4, 4 };
 
-            var (min, max) = Operations.FindMinMax(input);
+            var (min, max) = FindMinMax(input);
 
             Assert.Equal(4, min);
             Assert.Equal(4, max);
@@ -155,7 +166,7 @@ namespace Contracts.Tests
         {
             int[] input = { -10, -3, -7, -1 };
 
-            var (min, max) = Operations.FindMinMax(input);
+            var (min, max) = FindMinMax(input);
 
             Assert.Equal(-10, min);
             Assert.Equal(-1, max);
@@ -164,13 +175,13 @@ namespace Contracts.Tests
         [Fact]
         public void FindMinMax_NullInput_ThrowsException()
         {
-            Assert.ThrowsAny<Exception>(() => Operations.FindMinMax(null!));
+            Assert.ThrowsAny<Exception>(() => FindMinMax(null!));
         }
 
         [Fact]
         public void FindMinMax_EmptyArray_ThrowsException()
         {
-            Assert.ThrowsAny<Exception>(() => Operations.FindMinMax(Array.Empty<int>()));
+            Assert.ThrowsAny<Exception>(() => FindMinMax(Array.Empty<int>()));
         }
 
 
@@ -179,7 +190,7 @@ namespace Contracts.Tests
         {
             int[] input = { 5, 3, 8, 1 };
 
-            long result = Operations.Sum(input);
+            long result = Sum(input);
 
             Assert.Equal(17, result);
         }
@@ -189,7 +200,7 @@ namespace Contracts.Tests
         {
             int[] input = { 42 };
 
-            long result = Operations.Sum(input);
+            long result = Sum(input);
 
             Assert.Equal(42, result);
         }
@@ -199,7 +210,7 @@ namespace Contracts.Tests
         {
             int[] input = { -5, 3, -8, 10 };
 
-            long result = Operations.Sum(input);
+            long result = Sum(input);
 
             Assert.Equal(0, result);
         }
@@ -209,7 +220,7 @@ namespace Contracts.Tests
         {
             int[] input = { -1, -2, -3 };
 
-            long result = Operations.Sum(input);
+            long result = Sum(input);
 
             Assert.Equal(-6, result);
         }
@@ -219,7 +230,7 @@ namespace Contracts.Tests
         {
             int[] input = { 5, 3, 8, 1 };
 
-            long sum = Operations.Sum(input);
+            long sum = Sum(input);
             int min = input.Min();
             int max = input.Max();
 
@@ -230,13 +241,13 @@ namespace Contracts.Tests
         [Fact]
         public void Sum_NullInput_ThrowsException()
         {
-            Assert.ThrowsAny<Exception>(() => Operations.Sum(null!));
+            Assert.ThrowsAny<Exception>(() => Sum(null!));
         }
 
         [Fact]
         public void Sum_EmptyArray_ThrowsException()
         {
-            Assert.ThrowsAny<Exception>(() => Operations.Sum(Array.Empty<int>()));
+            Assert.ThrowsAny<Exception>(() => Sum(Array.Empty<int>()));
         }
     }
 }

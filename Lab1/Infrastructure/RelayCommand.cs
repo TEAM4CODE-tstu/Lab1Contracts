@@ -1,6 +1,6 @@
 ﻿using System.Windows.Input;
 
-namespace SortingAggregator.ViewModels;
+namespace Lab1.Infrastructure;
 
 public class RelayCommand : ICommand
 {

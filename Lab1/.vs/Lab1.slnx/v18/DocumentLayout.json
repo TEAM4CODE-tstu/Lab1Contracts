@@ -1,0 +1,407 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Masha\\\u041A\u0443\u0440\u04412\\\u0422\u0435\u043E\u0440\u0435\u0442\u0438\u0447\u0435\u0441\u043A\u0430\u044F \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\Lab1\\Lab1ContractsNew\\Lab1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{85A09178-86F8-11FE-228E-5C505B5C870A}|Lab1.csproj|d:\\masha\\\u043A\u0443\u0440\u04412\\\u0442\u0435\u043E\u0440\u0435\u0442\u0438\u0447\u0435\u0441\u043A\u0430\u044F \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\lab1\\lab1contractsnew\\lab1\\domain\\services\\sortingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85A09178-86F8-11FE-228E-5C505B5C870A}|Lab1.csproj|solutionrelative:domain\\services\\sortingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85A09178-86F8-11FE-228E-5C505B5C870A}|Lab1.csproj|d:\\masha\\\u043A\u0443\u0440\u04412\\\u0442\u0435\u043E\u0440\u0435\u0442\u0438\u0447\u0435\u0441\u043A\u0430\u044F \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\lab1\\lab1contractsnew\\lab1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{85A09178-86F8-11FE-228E-5C505B5C870A}|Lab1.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85A09178-86F8-11FE-228E-5C505B5C870A}|Lab1.csproj|d:\\masha\\\u043A\u0443\u0440\u04412\\\u0442\u0435\u043E\u0440\u0435\u0442\u0438\u0447\u0435\u0441\u043A\u0430\u044F \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\lab1\\lab1contractsnew\\lab1\\infrastructure\\timemeasurement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85A09178-86F8-11FE-228E-5C505B5C870A}|Lab1.csproj|solutionrelative:infrastructure\\timemeasurement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E80918CF-D40E-4D54-95AC-B00787FA782A}|..\\ConractsTest\\ConractsTest.csproj|d:\\masha\\\u043A\u0443\u0440\u04412\\\u0442\u0435\u043E\u0440\u0435\u0442\u0438\u0447\u0435\u0441\u043A\u0430\u044F \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\lab1\\lab1contractsnew\\conractstest\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85A09178-86F8-11FE-228E-5C505B5C870A}|Lab1.csproj|d:\\masha\\\u043A\u0443\u0440\u04412\\\u0442\u0435\u043E\u0440\u0435\u0442\u0438\u0447\u0435\u0441\u043A\u0430\u044F \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\lab1\\lab1contractsnew\\lab1\\viewmodels\\sortviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85A09178-86F8-11FE-228E-5C505B5C870A}|Lab1.csproj|solutionrelative:viewmodels\\sortviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85A09178-86F8-11FE-228E-5C505B5C870A}|Lab1.csproj|d:\\masha\\\u043A\u0443\u0440\u04412\\\u0442\u0435\u043E\u0440\u0435\u0442\u0438\u0447\u0435\u0441\u043A\u0430\u044F \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\lab1\\lab1contractsnew\\lab1\\domain\\services\\sortingservices\\isortalgorithm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85A09178-86F8-11FE-228E-5C505B5C870A}|Lab1.csproj|solutionrelative:domain\\services\\sortingservices\\isortalgorithm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85A09178-86F8-11FE-228E-5C505B5C870A}|Lab1.csproj|d:\\masha\\\u043A\u0443\u0440\u04412\\\u0442\u0435\u043E\u0440\u0435\u0442\u0438\u0447\u0435\u0441\u043A\u0430\u044F \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\lab1\\lab1contractsnew\\lab1\\domain\\services\\sortingservices\\sortalgorithmfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85A09178-86F8-11FE-228E-5C505B5C870A}|Lab1.csproj|solutionrelative:domain\\services\\sortingservices\\sortalgorithmfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85A09178-86F8-11FE-228E-5C505B5C870A}|Lab1.csproj|d:\\masha\\\u043A\u0443\u0440\u04412\\\u0442\u0435\u043E\u0440\u0435\u0442\u0438\u0447\u0435\u0441\u043A\u0430\u044F \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\lab1\\lab1contractsnew\\lab1\\viewmodels\\operationviewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85A09178-86F8-11FE-228E-5C505B5C870A}|Lab1.csproj|solutionrelative:viewmodels\\operationviewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85A09178-86F8-11FE-228E-5C505B5C870A}|Lab1.csproj|d:\\masha\\\u043A\u0443\u0440\u04412\\\u0442\u0435\u043E\u0440\u0435\u0442\u0438\u0447\u0435\u0441\u043A\u0430\u044F \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\lab1\\lab1contractsnew\\lab1\\viewmodels\\minmaxviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85A09178-86F8-11FE-228E-5C505B5C870A}|Lab1.csproj|solutionrelative:viewmodels\\minmaxviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85A09178-86F8-11FE-228E-5C505B5C870A}|Lab1.csproj|d:\\masha\\\u043A\u0443\u0440\u04412\\\u0442\u0435\u043E\u0440\u0435\u0442\u0438\u0447\u0435\u0441\u043A\u0430\u044F \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\lab1\\lab1contractsnew\\lab1\\viewmodels\\sumviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85A09178-86F8-11FE-228E-5C505B5C870A}|Lab1.csproj|solutionrelative:viewmodels\\sumviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85A09178-86F8-11FE-228E-5C505B5C870A}|Lab1.csproj|d:\\masha\\\u043A\u0443\u0440\u04412\\\u0442\u0435\u043E\u0440\u0435\u0442\u0438\u0447\u0435\u0441\u043A\u0430\u044F \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\lab1\\lab1contractsnew\\lab1\\lab1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{85A09178-86F8-11FE-228E-5C505B5C870A}|Lab1.csproj|solutionrelative:lab1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85A09178-86F8-11FE-228E-5C505B5C870A}|Lab1.csproj|d:\\masha\\\u043A\u0443\u0440\u04412\\\u0442\u0435\u043E\u0440\u0435\u0442\u0438\u0447\u0435\u0441\u043A\u0430\u044F \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\lab1\\lab1contractsnew\\lab1\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{85A09178-86F8-11FE-228E-5C505B5C870A}|Lab1.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85A09178-86F8-11FE-228E-5C505B5C870A}|Lab1.csproj|d:\\masha\\\u043A\u0443\u0440\u04412\\\u0442\u0435\u043E\u0440\u0435\u0442\u0438\u0447\u0435\u0441\u043A\u0430\u044F \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\lab1\\lab1contractsnew\\lab1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85A09178-86F8-11FE-228E-5C505B5C870A}|Lab1.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85A09178-86F8-11FE-228E-5C505B5C870A}|Lab1.csproj|d:\\masha\\\u043A\u0443\u0440\u04412\\\u0442\u0435\u043E\u0440\u0435\u0442\u0438\u0447\u0435\u0441\u043A\u0430\u044F \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\lab1\\lab1contractsnew\\lab1\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85A09178-86F8-11FE-228E-5C505B5C870A}|Lab1.csproj|solutionrelative:viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85A09178-86F8-11FE-228E-5C505B5C870A}|Lab1.csproj|d:\\masha\\\u043A\u0443\u0440\u04412\\\u0442\u0435\u043E\u0440\u0435\u0442\u0438\u0447\u0435\u0441\u043A\u0430\u044F \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\lab1\\lab1contractsnew\\lab1\\domain\\services\\minmaxservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85A09178-86F8-11FE-228E-5C505B5C870A}|Lab1.csproj|solutionrelative:domain\\services\\minmaxservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85A09178-86F8-11FE-228E-5C505B5C870A}|Lab1.csproj|d:\\masha\\\u043A\u0443\u0440\u04412\\\u0442\u0435\u043E\u0440\u0435\u0442\u0438\u0447\u0435\u0441\u043A\u0430\u044F \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\lab1\\lab1contractsnew\\lab1\\infrastructure\\observableobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85A09178-86F8-11FE-228E-5C505B5C870A}|Lab1.csproj|solutionrelative:infrastructure\\observableobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85A09178-86F8-11FE-228E-5C505B5C870A}|Lab1.csproj|d:\\masha\\\u043A\u0443\u0440\u04412\\\u0442\u0435\u043E\u0440\u0435\u0442\u0438\u0447\u0435\u0441\u043A\u0430\u044F \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\lab1\\lab1contractsnew\\lab1\\infrastructure\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85A09178-86F8-11FE-228E-5C505B5C870A}|Lab1.csproj|solutionrelative:infrastructure\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85A09178-86F8-11FE-228E-5C505B5C870A}|Lab1.csproj|d:\\masha\\\u043A\u0443\u0440\u04412\\\u0442\u0435\u043E\u0440\u0435\u0442\u0438\u0447\u0435\u0441\u043A\u0430\u044F \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\lab1\\lab1contractsnew\\lab1\\domain\\services\\sortings\\countingsortservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85A09178-86F8-11FE-228E-5C505B5C870A}|Lab1.csproj|solutionrelative:domain\\services\\sortings\\countingsortservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85A09178-86F8-11FE-228E-5C505B5C870A}|Lab1.csproj|d:\\masha\\\u043A\u0443\u0440\u04412\\\u0442\u0435\u043E\u0440\u0435\u0442\u0438\u0447\u0435\u0441\u043A\u0430\u044F \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\lab1\\lab1contractsnew\\lab1\\domain\\services\\sortings\\mergesortservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85A09178-86F8-11FE-228E-5C505B5C870A}|Lab1.csproj|solutionrelative:domain\\services\\sortings\\mergesortservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85A09178-86F8-11FE-228E-5C505B5C870A}|Lab1.csproj|d:\\masha\\\u043A\u0443\u0440\u04412\\\u0442\u0435\u043E\u0440\u0435\u0442\u0438\u0447\u0435\u0441\u043A\u0430\u044F \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\lab1\\lab1contractsnew\\lab1\\domain\\services\\sortings\\quicksortingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85A09178-86F8-11FE-228E-5C505B5C870A}|Lab1.csproj|solutionrelative:domain\\services\\sortings\\quicksortingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85A09178-86F8-11FE-228E-5C505B5C870A}|Lab1.csproj|d:\\masha\\\u043A\u0443\u0440\u04412\\\u0442\u0435\u043E\u0440\u0435\u0442\u0438\u0447\u0435\u0441\u043A\u0430\u044F \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\lab1\\lab1contractsnew\\lab1\\domain\\services\\sumservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85A09178-86F8-11FE-228E-5C505B5C870A}|Lab1.csproj|solutionrelative:domain\\services\\sumservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 309,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75c83ab3-5264-45e8-ad32-5c8a41ad477d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TimeMeasurement.cs",
+              "DocumentMoniker": "D:\\Masha\\\u041A\u0443\u0440\u04412\\\u0422\u0435\u043E\u0440\u0435\u0442\u0438\u0447\u0435\u0441\u043A\u0430\u044F \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\Lab1\\Lab1ContractsNew\\Lab1\\Infrastructure\\TimeMeasurement.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\TimeMeasurement.cs",
+              "ToolTip": "D:\\Masha\\\u041A\u0443\u0440\u04412\\\u0422\u0435\u043E\u0440\u0435\u0442\u0438\u0447\u0435\u0441\u043A\u0430\u044F \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\Lab1\\Lab1ContractsNew\\Lab1\\Infrastructure\\TimeMeasurement.cs",
+              "RelativeToolTip": "Infrastructure\\TimeMeasurement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T15:24:23.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\Masha\\\u041A\u0443\u0440\u04412\\\u0422\u0435\u043E\u0440\u0435\u0442\u0438\u0447\u0435\u0441\u043A\u0430\u044F \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\Lab1\\Lab1ContractsNew\\Lab1\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "D:\\Masha\\\u041A\u0443\u0440\u04412\\\u0422\u0435\u043E\u0440\u0435\u0442\u0438\u0447\u0435\u0441\u043A\u0430\u044F \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\Lab1\\Lab1ContractsNew\\Lab1\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-09-26T15:26:34.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SortingService.cs",
+              "DocumentMoniker": "D:\\Masha\\\u041A\u0443\u0440\u04412\\\u0422\u0435\u043E\u0440\u0435\u0442\u0438\u0447\u0435\u0441\u043A\u0430\u044F \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\Lab1\\Lab1ContractsNew\\Lab1\\Domain\\Services\\SortingService.cs",
+              "RelativeDocumentMoniker": "Domain\\Services\\SortingService.cs",
+              "ToolTip": "D:\\Masha\\\u041A\u0443\u0440\u04412\\\u0422\u0435\u043E\u0440\u0435\u0442\u0438\u0447\u0435\u0441\u043A\u0430\u044F \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\Lab1\\Lab1ContractsNew\\Lab1\\Domain\\Services\\SortingService.cs",
+              "RelativeToolTip": "Domain\\Services\\SortingService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T15:10:36.717Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Test.cs",
+              "DocumentMoniker": "D:\\Masha\\\u041A\u0443\u0440\u04412\\\u0422\u0435\u043E\u0440\u0435\u0442\u0438\u0447\u0435\u0441\u043A\u0430\u044F \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\Lab1\\Lab1ContractsNew\\ConractsTest\\Test.cs",
+              "RelativeDocumentMoniker": "..\\ConractsTest\\Test.cs",
+              "ToolTip": "D:\\Masha\\\u041A\u0443\u0440\u04412\\\u0422\u0435\u043E\u0440\u0435\u0442\u0438\u0447\u0435\u0441\u043A\u0430\u044F \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\Lab1\\Lab1ContractsNew\\ConractsTest\\Test.cs",
+              "RelativeToolTip": "..\\ConractsTest\\Test.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAgwFIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T16:17:05.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SortViewModel.cs",
+              "DocumentMoniker": "D:\\Masha\\\u041A\u0443\u0440\u04412\\\u0422\u0435\u043E\u0440\u0435\u0442\u0438\u0447\u0435\u0441\u043A\u0430\u044F \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\Lab1\\Lab1ContractsNew\\Lab1\\ViewModels\\SortViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\SortViewModel.cs",
+              "ToolTip": "D:\\Masha\\\u041A\u0443\u0440\u04412\\\u0422\u0435\u043E\u0440\u0435\u0442\u0438\u0447\u0435\u0441\u043A\u0430\u044F \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\Lab1\\Lab1ContractsNew\\Lab1\\ViewModels\\SortViewModel.cs",
+              "RelativeToolTip": "ViewModels\\SortViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T15:15:38.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ISortAlgorithm.cs",
+              "DocumentMoniker": "D:\\Masha\\\u041A\u0443\u0440\u04412\\\u0422\u0435\u043E\u0440\u0435\u0442\u0438\u0447\u0435\u0441\u043A\u0430\u044F \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\Lab1\\Lab1ContractsNew\\Lab1\\Domain\\Services\\SortingServices\\ISortAlgorithm.cs",
+              "RelativeDocumentMoniker": "Domain\\Services\\SortingServices\\ISortAlgorithm.cs",
+              "ToolTip": "D:\\Masha\\\u041A\u0443\u0440\u04412\\\u0422\u0435\u043E\u0440\u0435\u0442\u0438\u0447\u0435\u0441\u043A\u0430\u044F \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\Lab1\\Lab1ContractsNew\\Lab1\\Domain\\Services\\SortingServices\\ISortAlgorithm.cs",
+              "RelativeToolTip": "Domain\\Services\\SortingServices\\ISortAlgorithm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T15:28:13.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SortAlgorithmFactory.cs",
+              "DocumentMoniker": "D:\\Masha\\\u041A\u0443\u0440\u04412\\\u0422\u0435\u043E\u0440\u0435\u0442\u0438\u0447\u0435\u0441\u043A\u0430\u044F \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\Lab1\\Lab1ContractsNew\\Lab1\\Domain\\Services\\SortingServices\\SortAlgorithmFactory.cs",
+              "RelativeDocumentMoniker": "Domain\\Services\\SortingServices\\SortAlgorithmFactory.cs",
+              "ToolTip": "D:\\Masha\\\u041A\u0443\u0440\u04412\\\u0422\u0435\u043E\u0440\u0435\u0442\u0438\u0447\u0435\u0441\u043A\u0430\u044F \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\Lab1\\Lab1ContractsNew\\Lab1\\Domain\\Services\\SortingServices\\SortAlgorithmFactory.cs",
+              "RelativeToolTip": "Domain\\Services\\SortingServices\\SortAlgorithmFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T15:36:09.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "OperationViewModelBase.cs",
+              "DocumentMoniker": "D:\\Masha\\\u041A\u0443\u0440\u04412\\\u0422\u0435\u043E\u0440\u0435\u0442\u0438\u0447\u0435\u0441\u043A\u0430\u044F \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\Lab1\\Lab1ContractsNew\\Lab1\\ViewModels\\OperationViewModelBase.cs",
+              "RelativeDocumentMoniker": "ViewModels\\OperationViewModelBase.cs",
+              "ToolTip": "D:\\Masha\\\u041A\u0443\u0440\u04412\\\u0422\u0435\u043E\u0440\u0435\u0442\u0438\u0447\u0435\u0441\u043A\u0430\u044F \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\Lab1\\Lab1ContractsNew\\Lab1\\ViewModels\\OperationViewModelBase.cs",
+              "RelativeToolTip": "ViewModels\\OperationViewModelBase.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAQAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T15:11:59.91Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MinMaxViewModel.cs",
+              "DocumentMoniker": "D:\\Masha\\\u041A\u0443\u0440\u04412\\\u0422\u0435\u043E\u0440\u0435\u0442\u0438\u0447\u0435\u0441\u043A\u0430\u044F \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\Lab1\\Lab1ContractsNew\\Lab1\\ViewModels\\MinMaxViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\MinMaxViewModel.cs",
+              "ToolTip": "D:\\Masha\\\u041A\u0443\u0440\u04412\\\u0422\u0435\u043E\u0440\u0435\u0442\u0438\u0447\u0435\u0441\u043A\u0430\u044F \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\Lab1\\Lab1ContractsNew\\Lab1\\ViewModels\\MinMaxViewModel.cs",
+              "RelativeToolTip": "ViewModels\\MinMaxViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T15:13:10.189Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SumViewModel.cs",
+              "DocumentMoniker": "D:\\Masha\\\u041A\u0443\u0440\u04412\\\u0422\u0435\u043E\u0440\u0435\u0442\u0438\u0447\u0435\u0441\u043A\u0430\u044F \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\Lab1\\Lab1ContractsNew\\Lab1\\ViewModels\\SumViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\SumViewModel.cs",
+              "ToolTip": "D:\\Masha\\\u041A\u0443\u0440\u04412\\\u0422\u0435\u043E\u0440\u0435\u0442\u0438\u0447\u0435\u0441\u043A\u0430\u044F \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\Lab1\\Lab1ContractsNew\\Lab1\\ViewModels\\SumViewModel.cs",
+              "RelativeToolTip": "ViewModels\\SumViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T15:16:11.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Lab1",
+              "DocumentMoniker": "D:\\Masha\\\u041A\u0443\u0440\u04412\\\u0422\u0435\u043E\u0440\u0435\u0442\u0438\u0447\u0435\u0441\u043A\u0430\u044F \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\Lab1\\Lab1ContractsNew\\Lab1\\Lab1.csproj",
+              "RelativeDocumentMoniker": "Lab1.csproj",
+              "ToolTip": "D:\\Masha\\\u041A\u0443\u0440\u04412\\\u0422\u0435\u043E\u0440\u0435\u0442\u0438\u0447\u0435\u0441\u043A\u0430\u044F \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\Lab1\\Lab1ContractsNew\\Lab1\\Lab1.csproj",
+              "RelativeToolTip": "Lab1.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-09-26T16:27:48.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\Masha\\\u041A\u0443\u0440\u04412\\\u0422\u0435\u043E\u0440\u0435\u0442\u0438\u0447\u0435\u0441\u043A\u0430\u044F \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\Lab1\\Lab1ContractsNew\\Lab1\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "D:\\Masha\\\u041A\u0443\u0440\u04412\\\u0422\u0435\u043E\u0440\u0435\u0442\u0438\u0447\u0435\u0441\u043A\u0430\u044F \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\Lab1\\Lab1ContractsNew\\Lab1\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-09-26T16:31:22.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Masha\\\u041A\u0443\u0440\u04412\\\u0422\u0435\u043E\u0440\u0435\u0442\u0438\u0447\u0435\u0441\u043A\u0430\u044F \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\Lab1\\Lab1ContractsNew\\Lab1\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "D:\\Masha\\\u041A\u0443\u0440\u04412\\\u0422\u0435\u043E\u0440\u0435\u0442\u0438\u0447\u0435\u0441\u043A\u0430\u044F \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\Lab1\\Lab1ContractsNew\\Lab1\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T07:29:23.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "D:\\Masha\\\u041A\u0443\u0440\u04412\\\u0422\u0435\u043E\u0440\u0435\u0442\u0438\u0447\u0435\u0441\u043A\u0430\u044F \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\Lab1\\Lab1ContractsNew\\Lab1\\ViewModels\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\MainViewModel.cs",
+              "ToolTip": "D:\\Masha\\\u041A\u0443\u0440\u04412\\\u0422\u0435\u043E\u0440\u0435\u0442\u0438\u0447\u0435\u0441\u043A\u0430\u044F \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\Lab1\\Lab1ContractsNew\\Lab1\\ViewModels\\MainViewModel.cs",
+              "RelativeToolTip": "ViewModels\\MainViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T15:13:29.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MinMaxService.cs",
+              "DocumentMoniker": "D:\\Masha\\\u041A\u0443\u0440\u04412\\\u0422\u0435\u043E\u0440\u0435\u0442\u0438\u0447\u0435\u0441\u043A\u0430\u044F \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\Lab1\\Lab1ContractsNew\\Lab1\\Domain\\Services\\MinMaxService.cs",
+              "RelativeDocumentMoniker": "Domain\\Services\\MinMaxService.cs",
+              "ToolTip": "D:\\Masha\\\u041A\u0443\u0440\u04412\\\u0422\u0435\u043E\u0440\u0435\u0442\u0438\u0447\u0435\u0441\u043A\u0430\u044F \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\Lab1\\Lab1ContractsNew\\Lab1\\Domain\\Services\\MinMaxService.cs",
+              "RelativeToolTip": "Domain\\Services\\MinMaxService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T15:10:41.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ObservableObject.cs",
+              "DocumentMoniker": "D:\\Masha\\\u041A\u0443\u0440\u04412\\\u0422\u0435\u043E\u0440\u0435\u0442\u0438\u0447\u0435\u0441\u043A\u0430\u044F \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\Lab1\\Lab1ContractsNew\\Lab1\\Infrastructure\\ObservableObject.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\ObservableObject.cs",
+              "ToolTip": "D:\\Masha\\\u041A\u0443\u0440\u04412\\\u0422\u0435\u043E\u0440\u0435\u0442\u0438\u0447\u0435\u0441\u043A\u0430\u044F \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\Lab1\\Lab1ContractsNew\\Lab1\\Infrastructure\\ObservableObject.cs",
+              "RelativeToolTip": "Infrastructure\\ObservableObject.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T15:13:34.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "RelayCommand.cs",
+              "DocumentMoniker": "D:\\Masha\\\u041A\u0443\u0440\u04412\\\u0422\u0435\u043E\u0440\u0435\u0442\u0438\u0447\u0435\u0441\u043A\u0430\u044F \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\Lab1\\Lab1ContractsNew\\Lab1\\Infrastructure\\RelayCommand.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\RelayCommand.cs",
+              "ToolTip": "D:\\Masha\\\u041A\u0443\u0440\u04412\\\u0422\u0435\u043E\u0440\u0435\u0442\u0438\u0447\u0435\u0441\u043A\u0430\u044F \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\Lab1\\Lab1ContractsNew\\Lab1\\Infrastructure\\RelayCommand.cs",
+              "RelativeToolTip": "Infrastructure\\RelayCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T15:17:22.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CountingSortService.cs",
+              "DocumentMoniker": "D:\\Masha\\\u041A\u0443\u0440\u04412\\\u0422\u0435\u043E\u0440\u0435\u0442\u0438\u0447\u0435\u0441\u043A\u0430\u044F \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\Lab1\\Lab1ContractsNew\\Lab1\\Domain\\Services\\Sortings\\CountingSortService.cs",
+              "RelativeDocumentMoniker": "Domain\\Services\\Sortings\\CountingSortService.cs",
+              "ToolTip": "D:\\Masha\\\u041A\u0443\u0440\u04412\\\u0422\u0435\u043E\u0440\u0435\u0442\u0438\u0447\u0435\u0441\u043A\u0430\u044F \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\Lab1\\Lab1ContractsNew\\Lab1\\Domain\\Services\\Sortings\\CountingSortService.cs",
+              "RelativeToolTip": "Domain\\Services\\Sortings\\CountingSortService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T15:29:02.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MergeSortService.cs",
+              "DocumentMoniker": "D:\\Masha\\\u041A\u0443\u0440\u04412\\\u0422\u0435\u043E\u0440\u0435\u0442\u0438\u0447\u0435\u0441\u043A\u0430\u044F \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\Lab1\\Lab1ContractsNew\\Lab1\\Domain\\Services\\Sortings\\MergeSortService.cs",
+              "RelativeDocumentMoniker": "Domain\\Services\\Sortings\\MergeSortService.cs",
+              "ToolTip": "D:\\Masha\\\u041A\u0443\u0440\u04412\\\u0422\u0435\u043E\u0440\u0435\u0442\u0438\u0447\u0435\u0441\u043A\u0430\u044F \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\Lab1\\Lab1ContractsNew\\Lab1\\Domain\\Services\\Sortings\\MergeSortService.cs",
+              "RelativeToolTip": "Domain\\Services\\Sortings\\MergeSortService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T15:31:13.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "QuickSortingService.cs",
+              "DocumentMoniker": "D:\\Masha\\\u041A\u0443\u0440\u04412\\\u0422\u0435\u043E\u0440\u0435\u0442\u0438\u0447\u0435\u0441\u043A\u0430\u044F \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\Lab1\\Lab1ContractsNew\\Lab1\\Domain\\Services\\Sortings\\QuickSortingService.cs",
+              "RelativeDocumentMoniker": "Domain\\Services\\Sortings\\QuickSortingService.cs",
+              "ToolTip": "D:\\Masha\\\u041A\u0443\u0440\u04412\\\u0422\u0435\u043E\u0440\u0435\u0442\u0438\u0447\u0435\u0441\u043A\u0430\u044F \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\Lab1\\Lab1ContractsNew\\Lab1\\Domain\\Services\\Sortings\\QuickSortingService.cs",
+              "RelativeToolTip": "Domain\\Services\\Sortings\\QuickSortingService.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwCAAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T15:31:21.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "SumService.cs",
+              "DocumentMoniker": "D:\\Masha\\\u041A\u0443\u0440\u04412\\\u0422\u0435\u043E\u0440\u0435\u0442\u0438\u0447\u0435\u0441\u043A\u0430\u044F \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\Lab1\\Lab1ContractsNew\\Lab1\\Domain\\Services\\SumService.cs",
+              "RelativeDocumentMoniker": "Domain\\Services\\SumService.cs",
+              "ToolTip": "D:\\Masha\\\u041A\u0443\u0440\u04412\\\u0422\u0435\u043E\u0440\u0435\u0442\u0438\u0447\u0435\u0441\u043A\u0430\u044F \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\Lab1\\Lab1ContractsNew\\Lab1\\Domain\\Services\\SumService.cs",
+              "RelativeToolTip": "Domain\\Services\\SumService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T15:10:40.46Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 91,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

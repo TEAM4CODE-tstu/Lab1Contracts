@@ -108,6 +108,7 @@
 
                         <!-- Ввод -->
                         <TextBlock Text="Введите веса прибывших грузов (через пробел, запятую или ;):" Margin="0,0,0,4"/>
+                        <TextBlock Text="Возможно ввести не более 100 грузов весом не более 20 кг каждый" Margin="0,0,0,4"/>
                         <TextBox Text="{Binding InputText, UpdateSourceTrigger=PropertyChanged}"
                          Margin="0,0,0,12" Padding="4"/>
 
@@ -135,7 +136,9 @@
                                 </StackPanel.Style>
 
                                 <TextBlock Text="Тип сортировки:" FontFamily="Trebuchet MS" FontSize="14" FontWeight="Bold" VerticalAlignment="Center" Margin="0,0,8,0"/>
-                                <ComboBox Width="180" Height="36" VerticalContentAlignment="Center" Background="LightGray" SelectedIndex="0" FontSize="13" FontWeight="Bold">
+                                <ComboBox Width="180" Height="36" VerticalContentAlignment="Center" Background="LightGray" SelectedIndex="0" FontSize="13" FontWeight="Bold"
+                                    SelectedValuePath="Content"
+                                    SelectedValue="{Binding SelectedSortType, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}">
                                     <ComboBoxItem Content="Подсчётом"/>
                                     <ComboBoxItem Content="Быстрая"/>
                                     <ComboBoxItem Content="Слиянием"/>
@@ -157,11 +160,14 @@
 
                                 <TextBlock Text="Время выполнения:" FontFamily="Trebuchet MS" FontSize="14" FontWeight="Bold"   VerticalAlignment="Center" Margin="0,0,8,0"/>
                                 <!-- Поле вывода времени связано со свойством ExecutionTime-->
-                                <TextBox Text="{Binding ExecutionTime, TargetNullValue='0.00 мс'}" 
-                 Width="100" Height="36" 
-                 HorizontalContentAlignment="Center" VerticalContentAlignment="Center"
-                 FontSize="14" FontWeight="Bold"
-                 IsReadOnly="True" Background="LightGray" BorderBrush="LightGray"/>
+                                <TextBox Text="{Binding ExecutionTime, StringFormat={}{0:F3} мс}"
+                                     Width="100" Height="36"
+                                     HorizontalContentAlignment="Center"
+                                     VerticalContentAlignment="Center"
+                                     FontSize="14" FontWeight="Bold"
+                                     IsReadOnly="True"
+                                     Background="LightGray"
+                                     BorderBrush="LightGray"/>
                             </StackPanel>
 
                         </StackPanel>

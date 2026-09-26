@@ -1,6 +1,6 @@
 ﻿using System.Windows.Input;
-
 namespace SortingAggregator.ViewModels;
+using Lab1.Infrastructure;
 
 public abstract class OperationViewModelBase : ObservableObject
 // ObservableObject — это базовый класс,
@@ -78,8 +78,8 @@ public abstract class OperationViewModelBase : ObservableObject
 
     protected OperationViewModelBase()
     {
-        ExecuteCommand = new RelayCommand(_ => Execute());
-        ShowContractCommand = new RelayCommand(_ => ShowContract());
+        ExecuteCommand = new Lab1.Infrastructure.RelayCommand(_ => Execute());
+        ShowContractCommand = new Lab1.Infrastructure.RelayCommand(_ => ShowContract());
     }
 
     /// <summary>

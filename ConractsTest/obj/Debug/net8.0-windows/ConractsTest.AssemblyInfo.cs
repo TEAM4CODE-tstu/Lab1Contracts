@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ConractsTest")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dd4ce1c5459b10eb6c28bad3c74f803a80d4c232")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7e8e264b861074b50d94762cf0b028d197dfe2ad")]
 [assembly: System.Reflection.AssemblyProductAttribute("ConractsTest")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ConractsTest")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

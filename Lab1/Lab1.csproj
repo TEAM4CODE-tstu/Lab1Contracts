@@ -13,6 +13,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Page Include="App.xaml" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Compile Update="ViewModels\MainViewModel.cs">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Compile>
