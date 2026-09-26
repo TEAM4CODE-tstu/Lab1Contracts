@@ -156,8 +156,8 @@ public abstract class OperationViewModelBase : ObservableObject
         var parts = InputText
             .Split(new[] { ' ', ',', ';' }, StringSplitOptions.RemoveEmptyEntries);
 
-        if (parts.Length == 0)
-            return (false, "Введите хотя бы одно число.", Array.Empty<int>());
+        if (parts.Length == 0 || parts.Length >= 10000)
+            return (false, "Количество чисел должно быть меньше 10000 и больше 0", Array.Empty<int>());
 
         var result = new List<int>(parts.Length);
         foreach (var part in parts)

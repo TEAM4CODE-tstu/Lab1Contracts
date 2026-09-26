@@ -38,10 +38,9 @@
         <!-- Добавленное-->
         <Grid Grid.Column="0" Background="#F3F3F3"> <!-- Закраска левого заднего плана в серый -->
             <Grid.RowDefinitions>
-                <RowDefinition Height="*"/>
-                <!-- Строка для списка (займет все место сверху) -->
-                <RowDefinition Height="Auto"/>
-                <!-- Строка для кнопки -->
+                <RowDefinition Height="*"/> <!-- Строка для списка (займет все место сверху) -->                
+                <RowDefinition Height="Auto"/> <!-- Строка для кнопки справки-->                
+                <RowDefinition Height="Auto"/><!-- Строка для кнопки выход -->   
             </Grid.RowDefinitions>
 
             <!-- Перенесенный список (Grid.Row="0") -->
@@ -51,14 +50,25 @@
              SelectedItem="{Binding SelectedOperation}"
              Margin="8,8,8,4"/>
 
-            <!-- Размещение кнопки выхода в самом низу колонки -->
+            <!-- Размещение кнопки справки -->
             <Button Grid.Row="1"
+            Content="Справка пользователя"
+            Height="32"
+            Margin="8,4,8,4"
+            Background="#EAEAEA"
+            FontWeight="SemiBold"
+            Click="HelpButton_Click"/>
+
+            <!-- Размещение кнопки выхода в самом низу колонки -->
+            <Button Grid.Row="2"
             Content="Выход"
             Height="32"
             Margin="8,4,8,8"
             Background="#FFF0F0"
             FontWeight="SemiBold"
             Click="ExitButton_Click"/>
+
+
         </Grid>
         
         

@@ -30,5 +30,12 @@ namespace SortingAggregator
             _canClose = true; 
             Application.Current.Shutdown();
         }
+
+        private void HelpButton_Click(object sender, RoutedEventArgs e)
+        {
+            var helpWindow = new Lab1.HelpWindow();
+            helpWindow.Owner = this;
+            helpWindow.ShowDialog(); 
+        }
     }
 }
