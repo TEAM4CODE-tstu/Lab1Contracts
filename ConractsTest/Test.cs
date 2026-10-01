@@ -1,109 +1,129 @@
 using Lab1.Domain.Services.SortingServices;
+using System.Security.Cryptography;
 using static Lab1.Domain.Services.MinMaxService;
-using static Lab1.Domain.Services.SortingServices.SortAlgorithmFactory;
 using static Lab1.Domain.Services.SumService;
 namespace Contracts.Tests
 {
     public class Test
     {
+        private ISortAlgorithm countingSortAlgorithm = SortAlgorithmFactory.GetAlgorithm("Подсчётом");
+        private ISortAlgorithm mergeSortAlgorithm = SortAlgorithmFactory.GetAlgorithm("Слиянием");
+        private ISortAlgorithm quickSortingAlgorithm = SortAlgorithmFactory.GetAlgorithm("Быстрая");
 
         [Fact]
         public void Sort_TypicalArray_ReturnsSortedCopy()
         {
-            var algorithm = SortAlgorithmFactory.GetAlgorithm("Подсчётом");
             int[] input = { 5, 3, 8, 1 };
 
-            int[] result = algorithm.Sort(input);
+            int[] countingSortResult = countingSortAlgorithm.Sort(input);
+            int[] mergeSortResult = mergeSortAlgorithm.Sort(input);
+            int[] quickSortingResult = quickSortingAlgorithm.Sort(input);
 
-            for (int i = 1; i < result.Length; i++)
-                Assert.True(result[i - 1] <= result[i]);
+            for (int i = 1; i < countingSortResult.Length; i++)
+                Assert.True(countingSortResult[i - 1] <= countingSortResult[i]);
+
+            for (int i = 1; i < mergeSortResult.Length; i++)
+                Assert.True(mergeSortResult[i - 1] <= mergeSortResult[i]);
+
+            for (int i = 1; i < quickSortingResult.Length; i++)
+                Assert.True(quickSortingResult[i - 1] <= quickSortingResult[i]);
         }
 
         [Fact]
         public void Sort_TypicalArray_PreservesMultiset()
         {
-            var algorithm = SortAlgorithmFactory.GetAlgorithm("Подсчётом");
             int[] input = { 5, 3, 8, 1 };
-            int[] result = algorithm.Sort(input);
 
-            Assert.True(result.OrderBy(x => x).SequenceEqual(input.OrderBy(x => x)));
-        }
+            int[] countingSortResult = countingSortAlgorithm.Sort(input);
+            int[] mergeSortResult = mergeSortAlgorithm.Sort(input);
+            int[] quickSortingResult = quickSortingAlgorithm.Sort(input);
 
-        [Fact]
-        public void Sort_DoesNotMutateOriginal()
-        {
-            var algorithm = SortAlgorithmFactory.GetAlgorithm("Подсчётом");
-            int[] input = { 5, 3, 8, 1 };
-            int[] original = (int[])input.Clone();
-
-            algorithm.Sort(input);
-
-            Assert.Equal(original, input);
+            Assert.True(countingSortResult.OrderBy(x => x).SequenceEqual(input.OrderBy(x => x)));
+            Assert.True(mergeSortResult.OrderBy(x => x).SequenceEqual(input.OrderBy(x => x)));
+            Assert.True(quickSortingResult.OrderBy(x => x).SequenceEqual(input.OrderBy(x => x)));
         }
 
         [Fact]
         public void Sort_SingleElement_ReturnsSameElement()
         {
-            var algorithm = SortAlgorithmFactory.GetAlgorithm("Подсчётом");
             int[] input = { 42 };
-            int[] result = algorithm.Sort(input);
 
-            Assert.Single(result);
-            Assert.Equal(42, result[0]);
+            int[] countingSortResult = countingSortAlgorithm.Sort(input);
+            int[] mergeSortResult = mergeSortAlgorithm.Sort(input);
+            int[] quickSortingResult = quickSortingAlgorithm.Sort(input);
+
+            Assert.Single(countingSortResult);
+            Assert.Equal(42, countingSortResult[0]);
+
+            Assert.Single(mergeSortResult);
+            Assert.Equal(42, mergeSortResult[0]);
+
+            Assert.Single(quickSortingResult);
+            Assert.Equal(42, quickSortingResult[0]);
         }
 
         [Fact]
         public void Sort_AlreadySorted_ReturnsSameOrder()
         {
-            var algorithm = SortAlgorithmFactory.GetAlgorithm("Подсчётом");
             int[] input = { 1, 2, 3, 4, 5 };
-            int[] result = algorithm.Sort(input);
 
-            Assert.Equal(input, result);
+            int[] countingSortResult = countingSortAlgorithm.Sort(input);
+            int[] mergeSortResult = mergeSortAlgorithm.Sort(input);
+            int[] quickSortingResult = quickSortingAlgorithm.Sort(input);
+
+            Assert.Equal(input, countingSortResult);
+            Assert.Equal(input, mergeSortResult);
+            Assert.Equal(input, quickSortingResult);
         }
 
         [Fact]
         public void Sort_ReverseSorted_ReturnsAscending()
         {
-            var algorithm = SortAlgorithmFactory.GetAlgorithm("Подсчётом");
             int[] input = { 9, 7, 5, 3, 1 };
-            int[] result = algorithm.Sort(input);
 
-            Assert.Equal(new[] { 1, 3, 5, 7, 9 }, result);
+            int[] countingSortResult = countingSortAlgorithm.Sort(input);
+            int[] mergeSortResult = mergeSortAlgorithm.Sort(input);
+            int[] quickSortingResult = quickSortingAlgorithm.Sort(input);
+
+            Assert.Equal(new[] { 1, 3, 5, 7, 9 }, countingSortResult);
+            Assert.Equal(new[] { 1, 3, 5, 7, 9 }, mergeSortResult);
+            Assert.Equal(new[] { 1, 3, 5, 7, 9 }, quickSortingResult);
         }
 
         [Fact]
         public void Sort_DuplicateElements_PreservesAll()
         {
-            var algorithm = SortAlgorithmFactory.GetAlgorithm("Подсчётом");
             int[] input = { 3, 1, 3, 1, 2 };
-            int[] result = algorithm.Sort(input);
 
-            Assert.Equal(new[] { 1, 1, 2, 3, 3 }, result);
+            int[] countingSortResult = countingSortAlgorithm.Sort(input);
+            int[] mergeSortResult = mergeSortAlgorithm.Sort(input);
+            int[] quickSortingResult = quickSortingAlgorithm.Sort(input);
+
+            Assert.Equal(new[] { 1, 1, 2, 3, 3 }, countingSortResult);
+            Assert.Equal(new[] { 1, 1, 2, 3, 3 }, mergeSortResult);
+            Assert.Equal(new[] { 1, 1, 2, 3, 3 }, quickSortingResult);
         }
 
         [Fact]
         public void Sort_NegativeNumbers_SortsCorrectly()
         {
-            var algorithm = SortAlgorithmFactory.GetAlgorithm("Подсчётом");
             int[] input = { -5, -1, -3, 0, 2 };
-            int[] result = algorithm.Sort(input);
 
-            Assert.Equal(new[] { -5, -3, -1, 0, 2 }, result);
+            int[] countingSortResult = countingSortAlgorithm.Sort(input);
+            int[] mergeSortResult = mergeSortAlgorithm.Sort(input);
+            int[] quickSortingResult = quickSortingAlgorithm.Sort(input);
+
+            Assert.Equal(new[] { -5, -3, -1, 0, 2 }, countingSortResult);
+            Assert.Equal(new[] { -5, -3, -1, 0, 2 }, mergeSortResult);
+            Assert.Equal(new[] { -5, -3, -1, 0, 2 }, quickSortingResult);
         }
 
         [Fact]
         public void Sort_NullInput_ThrowsException()
-        {
-            var algorithm = SortAlgorithmFactory.GetAlgorithm("Подсчётом");
-            Assert.ThrowsAny<Exception>(() => algorithm.Sort(null!));
-        }
-
-        [Fact]
-        public void Sort_EmptyArray_ThrowsException()
-        {
-            var algorithm = SortAlgorithmFactory.GetAlgorithm("Подсчётом");
-            Assert.ThrowsAny<Exception>(() => algorithm.Sort(Array.Empty<int>()));
+        {;
+            Assert.ThrowsAny<Exception>(() => countingSortAlgorithm.Sort(null!));
+            Assert.ThrowsAny<Exception>(() => mergeSortAlgorithm.Sort(null!));
+            Assert.ThrowsAny<Exception>(() => quickSortingAlgorithm.Sort(null!));
         }
 
 

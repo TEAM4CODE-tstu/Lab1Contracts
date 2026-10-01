@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Lab1\Lab1.csproj" />
+    <ProjectReference Include="..\ClassLibrary1\DomainClassLibrary.csproj" />
   </ItemGroup>
 
   <ItemGroup>

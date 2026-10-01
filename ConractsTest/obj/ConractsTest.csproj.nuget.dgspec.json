@@ -1,20 +1,83 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Nickolay\\Desktop\\2 course\\TheorInf\\Lab1Contracts\\ConractsTest\\ConractsTest.csproj": {}
+    "C:\\Users\\Lenovo\\source\\repos\\Lab1Contracts\\ConractsTest\\ConractsTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Nickolay\\Desktop\\2 course\\TheorInf\\Lab1Contracts\\ConractsTest\\ConractsTest.csproj": {
+    "C:\\Users\\Lenovo\\source\\repos\\Lab1Contracts\\ClassLibrary1\\DomainClassLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nickolay\\Desktop\\2 course\\TheorInf\\Lab1Contracts\\ConractsTest\\ConractsTest.csproj",
-        "projectName": "ConractsTest",
-        "projectPath": "C:\\Users\\Nickolay\\Desktop\\2 course\\TheorInf\\Lab1Contracts\\ConractsTest\\ConractsTest.csproj",
-        "packagesPath": "C:\\Users\\Nickolay\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nickolay\\Desktop\\2 course\\TheorInf\\Lab1Contracts\\ConractsTest\\obj\\",
+        "projectUniqueName": "C:\\Users\\Lenovo\\source\\repos\\Lab1Contracts\\ClassLibrary1\\DomainClassLibrary.csproj",
+        "projectName": "DomainClassLibrary",
+        "projectPath": "C:\\Users\\Lenovo\\source\\repos\\Lab1Contracts\\ClassLibrary1\\DomainClassLibrary.csproj",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Lenovo\\source\\repos\\Lab1Contracts\\ClassLibrary1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Nickolay\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "framework": "net8.0",
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "framework": "net8.0",
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Lenovo\\source\\repos\\Lab1Contracts\\ConractsTest\\ConractsTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Lenovo\\source\\repos\\Lab1Contracts\\ConractsTest\\ConractsTest.csproj",
+        "projectName": "ConractsTest",
+        "projectPath": "C:\\Users\\Lenovo\\source\\repos\\Lab1Contracts\\ConractsTest\\ConractsTest.csproj",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Lenovo\\source\\repos\\Lab1Contracts\\ConractsTest\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -29,8 +92,8 @@
             "framework": "net8.0-windows7.0",
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "C:\\Users\\Nickolay\\Desktop\\2 course\\TheorInf\\Lab1Contracts\\Lab1\\Lab1.csproj": {
-                "projectPath": "C:\\Users\\Nickolay\\Desktop\\2 course\\TheorInf\\Lab1Contracts\\Lab1\\Lab1.csproj"
+              "C:\\Users\\Lenovo\\source\\repos\\Lab1Contracts\\ClassLibrary1\\DomainClassLibrary.csproj": {
+                "projectPath": "C:\\Users\\Lenovo\\source\\repos\\Lab1Contracts\\ClassLibrary1\\DomainClassLibrary.csproj"
               }
             }
           }
@@ -45,7 +108,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "10.0.400"
+        "SdkAnalysisLevel": "10.0.300"
       },
       "frameworks": {
         "net8.0-windows": {
@@ -85,79 +148,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.401/PortableRuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\Nickolay\\Desktop\\2 course\\TheorInf\\Lab1Contracts\\Lab1\\Lab1.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\Nickolay\\Desktop\\2 course\\TheorInf\\Lab1Contracts\\Lab1\\Lab1.csproj",
-        "projectName": "Lab1",
-        "projectPath": "C:\\Users\\Nickolay\\Desktop\\2 course\\TheorInf\\Lab1Contracts\\Lab1\\Lab1.csproj",
-        "packagesPath": "C:\\Users\\Nickolay\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nickolay\\Desktop\\2 course\\TheorInf\\Lab1Contracts\\Lab1\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\Nickolay\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net8.0-windows7.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net8.0-windows7.0": {
-            "framework": "net8.0-windows7.0",
-            "targetAlias": "net8.0-windows7.0",
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "10.0.400"
-      },
-      "frameworks": {
-        "net8.0-windows7.0": {
-          "framework": "net8.0-windows7.0",
-          "targetAlias": "net8.0-windows7.0",
-          "dependencies": {
-            "GuardRequires": {
-              "target": "Package",
-              "version": "[3.0.1, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            },
-            "Microsoft.WindowsDesktop.App.WPF": {
-              "privateAssets": "none"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.401/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
