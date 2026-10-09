@@ -30,7 +30,7 @@ namespace Contracts.Tests
         }
 
         [Fact]
-        public void Sort_TypicalArray_PreservesMultiset()
+        public void Sort_TypicalArray_PreservesMultiset()  
         {
             int[] input = { 5, 3, 8, 1 };
 
